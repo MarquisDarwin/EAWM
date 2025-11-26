@@ -90,4 +90,4 @@ We will release our code to promote future work to develop **Event-Aware World M
     </tr>
 </table>
 
-As demonstrated above, we observe that observation prediction in current MBRL world models generalizes poorly to unseen test environments due to limited interaction diversity in the training environments. In contrast, event prediction is inherently more tractable and interpretable, owing to the sparsity and well-defined semantic structure of events.
+## As demonstrated above, we observe that observation prediction in current MBRL world models generalizes poorly to unseen test environments due to limited interaction diversity in the training environments. In contrast, event prediction is inherently more tractable and interpretable, owing to the sparsity and well-defined semantic structure of events.
