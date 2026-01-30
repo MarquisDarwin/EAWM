@@ -1,0 +1,48 @@
+# @package _global_
+defaults:
+  - _self_
+  - override /tokenizer: bigym
+  - override /world_model: bigym
+  - override /actor_critic: bigym
+  - override /env: bigym
+  - override /datasets: default
+
+wandb:
+  tags: null
+  notes: null
+
+initialization:
+  dataset:
+    path: bigym_demos/${env.train.id}
+
+common:
+  epochs: 1000
+
+collection:
+  train:
+    config:
+      epsilon: 0.0
+      num_steps: 400
+  test:
+    num_envs: 1
+    config:
+      num_episodes: 2
+      num_episodes_end: 8
+
+training:
+  tokenizer:
+    start_after_epochs: 5
+    steps_per_epoch: 300
+  world_model:
+    batch_num_samples: 8
+    start_after_epochs: 25
+    steps_per_epoch: 300
+  actor_critic:
+    batch_num_samples: 64
+    real_start_after_epochs: 20
+    start_after_epochs: 40
+    critic_warmup_epochs: 10
+    steps_per_epoch: 80
+
+evaluation:
+  every: 10

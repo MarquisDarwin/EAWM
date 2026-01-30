@@ -1,0 +1,24 @@
+_target_: models.tokenizer.ImageTokenizer
+
+vocab_size: 512
+embed_dim: ${.encoder.config.out_channels}
+with_lpips: True
+vgg_lpips_ckpt_path: "cache/rem/tokenizer_pretrained_vgg"
+lpips_pnet: "vgg16"
+encoder:
+  _target_: models.tokenizer.SimpleEncoder
+  config:
+    _target_: models.tokenizer.SimpleEncoderConfig
+    in_channels: 3
+    out_channels: 256
+    out_channels_1st_layer: 64
+    input_resolution: [64, 64]
+    num_downsample_steps: 3  # 4 ( --> 4x4), 3 --> 8x8
+    norm_num_groups: 8
+    downsample_use_conv: True
+
+decoder:
+  _target_: models.tokenizer.SimpleDecoder
+  config: ${..encoder.config}
+
+device: ${...common.device}

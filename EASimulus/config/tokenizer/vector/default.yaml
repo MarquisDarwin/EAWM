@@ -1,0 +1,2 @@
+_target_: models.tokenizer.HardCodedVectorTokenizer
+device: ${...common.device}

@@ -1,0 +1,44 @@
+# @package _global_
+defaults:
+  - override /tokenizer: dmc
+  - override /world_model: dmc
+  - override /actor_critic: dmc
+  - override /env: dmc
+  - override /datasets: default
+
+wandb:
+  tags: null
+  notes: null
+
+common:
+  epochs: 1000
+
+collection:
+  train:
+    config:
+      epsilon: 0.0
+      temperature: 1.0
+      num_steps: 500
+  test:
+    num_envs: 8
+    config:
+      num_episodes: 32
+      num_episodes_end: 500
+
+training:
+  world_model:
+    batch_num_samples: 32
+    start_after_epochs: 15
+    steps_per_epoch: 128
+  actor_critic:
+    learning_rate: 2e-4
+    batch_num_samples: 128
+    start_after_epochs: 20
+    critic_warmup_epochs: 5
+    steps_per_epoch: 100
+    real_start_after_epochs: 15
+
+evaluation:
+  should: True
+  every: 50
+

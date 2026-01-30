@@ -1,0 +1,11 @@
+name: 'actor_critic'
+obs_mlp_layer_sizes: [512, 512]
+tokens_embed_dim: 64
+num_layers: 2
+separate_networks: False
+include_action_inputs: True
+rnn_type: 'lstm'
+num_value_bins: 128
+real_reward_weight: 100.0
+intrinsic_reward_weight: 1.0
+n_action_quant_levels: 51

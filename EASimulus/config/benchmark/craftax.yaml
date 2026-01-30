@@ -1,0 +1,51 @@
+# @package _global_
+defaults:
+  - _self_
+  - override /tokenizer: craftax
+  - override /world_model: craftax
+  - override /actor_critic: craftax
+  - override /env: craftax
+  - override /datasets: default
+
+wandb:
+  tags: null
+  notes: null
+
+common:
+  epochs: 10000
+  float32_matmul_precision: 'high'
+  num_dataloader_workers: 0
+
+collection:
+  train:
+    stop_after_epochs: 10000
+    config:
+      epsilon: 0.01
+      num_steps: 100
+  test:
+    num_envs: 8
+    num_episodes_to_save: ${collection.train.num_episodes_to_save}
+    store_dataset: False
+    config:
+      num_episodes: 32
+      num_episodes_end: 100
+
+training:
+  tokenizer:
+    start_after_epochs: 50
+    steps_per_epoch: 100
+  world_model:
+    batch_num_samples: 8
+    start_after_epochs: 150
+    steps_per_epoch: 100
+  actor_critic:
+    learning_rate: 3e-4
+    batch_num_samples: 256
+    real_start_after_epochs: 150
+    start_after_epochs: 200 
+    critic_warmup_epochs: 0
+    steps_per_epoch: 40
+
+evaluation:
+  should: True
+  every: 500

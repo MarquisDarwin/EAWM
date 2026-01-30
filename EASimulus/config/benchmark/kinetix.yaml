@@ -1,0 +1,48 @@
+# @package _global_
+defaults:
+  - _self_
+  - override /tokenizer: atari
+  - override /world_model: default
+  - override /actor_critic: atari
+  - override /env: kinetix
+  - override /datasets: default
+
+wandb:
+  tags: null
+  notes: null
+
+common:
+  epochs: 600
+
+collection:
+  train:
+    stop_after_epochs: 500
+    config:
+      epsilon: 0.01
+      num_steps: 2000
+  test:
+    num_envs: 8
+    num_episodes_to_save: ${collection.train.num_episodes_to_save}
+    store_dataset: False
+    config:
+      num_episodes: 32
+      num_episodes_end: 100
+
+training:
+  tokenizer:
+    start_after_epochs: 5
+    steps_per_epoch: 200
+  world_model:
+    batch_num_samples: 32
+    start_after_epochs: 25
+    steps_per_epoch: 200
+  actor_critic:
+    learning_rate: 2e-4
+    batch_num_samples: 128
+    real_start_after_epochs: 25
+    start_after_epochs: 50
+    critic_warmup_epochs: 0
+    steps_per_epoch: 80
+
+evaluation:
+  every: 20

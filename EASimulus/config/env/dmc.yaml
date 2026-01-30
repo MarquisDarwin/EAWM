@@ -1,0 +1,17 @@
+train:
+  _partial_: true
+  _target_: envs.make_dm_control
+  id: "walker-run"
+  hsize: 64
+  wsize: 64
+  image_output: false
+test:
+  _partial_: true
+  _target_: ${..train._target_}
+  hsize: ${..train.hsize}
+  wsize: ${..train.wsize}
+  id: ${..train.id}
+  image_output: ${..train.image_output}
+
+keymap: minihack/${.train.id}
+mp_spawn_method: "spawn"

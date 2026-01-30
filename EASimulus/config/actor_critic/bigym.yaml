@@ -1,0 +1,10 @@
+name: 'LSAC'
+obs_mlp_layer_sizes: [512, 512]
+num_layers: 2
+separate_networks: True
+include_action_inputs: True
+rnn_type: 'lstm'
+num_value_bins: 128
+real_reward_weight: 1000.0
+intrinsic_reward_weight: 10.0
+n_action_quant_levels: 51

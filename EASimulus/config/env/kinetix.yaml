@@ -1,0 +1,14 @@
+train:
+  _partial_: true
+  _target_: envs.make_kinetix
+  id: "Kinetix-Pixels-MultiDiscrete-v1"
+  frame_size: 64
+
+test:
+  _partial_: true
+  _target_: ${..train._target_}
+  id: ${..train.id}
+  frame_size: ${..train.frame_size}
+
+keymap: kinetix/${.train.id}
+mp_spawn_method: "spawn"

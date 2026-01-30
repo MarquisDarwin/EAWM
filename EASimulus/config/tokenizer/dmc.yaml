@@ -1,0 +1,6 @@
+defaults:
+  - image: null
+  - vector: default
+  - token: null
+
+_target_: models.tokenizer.MultiModalTokenizer

@@ -1,0 +1,123 @@
+defaults:
+  - _self_
+  - tokenizer: ???
+  - world_model: ???
+  - actor_critic: ???
+  - env: ???
+  - datasets: ???
+  - benchmark: ???
+
+outputs_dir_path: ./outputs
+
+hydra:
+  run:
+    dir: ${outputs_dir_path}/${env.train.id}/${now:%Y-%m-%d}/${now:%H-%M-%S}-seed-${common.seed}
+
+wandb:
+  mode: online
+  project: m3
+  entity: null
+  name: null
+  group: null
+  tags: null
+  notes: null
+
+initialization:
+  agent:
+    path_to_checkpoint: null
+    load_tokenizer: False
+    load_world_model: False
+    load_actor_critic: False
+  video:
+    path: null
+  dataset:
+    path: null
+
+common:
+  epochs: ???
+  device: cuda:0
+  graphicslib: "osmesa"
+  do_checkpoint: True
+  metrics_only_mode: False
+  seed: 1
+  sequence_length: ${world_model.retnet.max_blocks}
+  resume: False # set by resume.sh script only.
+  float32_matmul_precision: 'highest'
+  num_dataloader_workers: 2
+
+collection:
+  train:
+    num_envs: 1
+    stop_after_epochs: ${...common.epochs}
+    demon_stop_after_epochs: 500
+    num_episodes_to_save: 10
+    config:
+      epsilon: 0.0
+      should_sample: True
+      temperature: 1.0
+      num_steps: ???
+      burn_in: ${training.actor_critic.burn_in}
+  test:
+    num_envs: 8
+    num_episodes_to_save: ${collection.train.num_episodes_to_save}
+    store_dataset: True
+    config:
+      epsilon: 0.0
+      should_sample: True
+      temperature: 0.5
+#      num_episodes: ???
+#      num_episodes_end: ???
+#      num_steps: ???
+#      num_steps_end: ???
+      burn_in: ${training.actor_critic.burn_in}
+
+training:
+  should: True
+  learning_rate: 1e-4
+  tokenizer:
+    learning_rate: 1e-4
+    batch_num_samples: 128
+    grad_acc_steps: 1
+    max_grad_norm: 10.0
+    start_after_epochs: 5
+    steps_per_epoch: 200
+  world_model:
+    learning_rate: 2e-4
+    batch_num_samples: 32
+    grad_acc_steps: 1
+    max_grad_norm: 3.0
+    weight_decay: 0.05
+    replay_sampling_uniform_fraction: 0.7
+    start_after_epochs: 25
+    steps_per_epoch: 200
+  actor_critic:
+    learning_rate: 2e-4
+    batch_num_samples: 128
+    grad_acc_steps: 1
+    max_grad_norm: 3.0
+    real_experience: False
+    real_start_after_epochs: 35
+    start_after_epochs: 35
+    critic_warmup_epochs: 0
+    steps_per_epoch: 80
+    imagine_horizon: ${common.sequence_length}
+    burn_in: 20
+    gamma: 0.99
+    lambda_: 0.95
+    entropy_weight: 0.001
+
+evaluation:
+  should: True
+  every: 10
+  tokenizer:
+    batch_num_samples: ${training.tokenizer.batch_num_samples}
+    start_after_epochs: ${training.tokenizer.start_after_epochs}
+    save_reconstructions: True
+  world_model:
+    batch_num_samples: ${training.world_model.batch_num_samples}
+    start_after_epochs: ${training.world_model.start_after_epochs}
+  actor_critic:
+    num_episodes_to_save: ${training.actor_critic.batch_num_samples}
+    horizon: ${training.actor_critic.imagine_horizon}
+    start_after_epochs: ${training.actor_critic.start_after_epochs}
+    real_start_after_epochs: ${training.actor_critic.real_start_after_epochs}

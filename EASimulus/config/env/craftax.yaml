@@ -1,0 +1,12 @@
+train:
+  _partial_: true
+  _target_: envs.make_craftax
+  id: "Craftax-Symbolic-v1"
+
+test:
+  _partial_: true
+  _target_: ${..train._target_}
+  id: ${..train.id}
+
+keymap: craftax/${.train.id}
+mp_spawn_method: "spawn"

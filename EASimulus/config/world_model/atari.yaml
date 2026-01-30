@@ -1,0 +1,28 @@
+retnet:
+  _target_: models.RetNetConfig
+  max_blocks: 15
+  num_layers: 10
+  num_heads: 4
+  embed_dim: 256
+  dropout: 0.1
+  blocks_per_chunk: 5
+  mask_type: 'autoregressive'
+  decay_scale_min_num_blocks: 4
+  decay_scale_max_num_blocks: 16
+  token_feedforward_alone: False
+context_length: 2
+compute_states_parallel: True
+shared_embeddings: True
+obs_emb_dim: 256
+shared_prediction_token: False
+enable_curiosity: True
+event_pred: False
+event_image_balance_factor: 0.5
+event_vector_balance_factor: 1.0
+event_token_balance_factor: 1.0
+event_token_2d_balance_factor: 0.25
+ges: False
+convmotdecoder: False
+judge_tendency: False
+tend_threshold: 0.01
+reward_end_use_all_embedding: False
