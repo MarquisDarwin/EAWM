@@ -40,7 +40,7 @@ python3 dreamer.py --configdir configsc.yaml --configs dmc_vision --task dmc_wal
 ```
 
 #### DMC-GB2 500K
-The [DMC-GB2 benchmark](https://github.com/aalmuzairee/dmcgb2) has dependencies on external datasets. You need to you need to download the Places365 Dataset and DAVIS Dataset:
+The [DMC-GB2 benchmark](https://github.com/aalmuzairee/dmcgb2) has dependencies on external datasets. You need to download the Places365 Dataset and DAVIS Dataset:
 ```
 mkdir -p envs/data;
 cd envs/data;
@@ -51,9 +51,9 @@ wget http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar
 tar -xvf places365standard_easyformat.tar; 
 rm places365standard_easyformat.tar;
 ```
-The folder ```envs/data``` is structured as
+The folder ```envs/data/``` is structured as
 ```
-envs/data
+envs/data/
 └─── places365_standard
 └─── video_easy
 └─── video_hard
