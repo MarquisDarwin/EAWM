@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 #### Atari 100K
 
-To Import ROMs, use[scripts/import_atari_rom.sh](scripts/import_atari_rom.sh):
+To Import ROMs, use [scripts/import_atari_rom.sh](scripts/import_atari_rom.sh):
 
 ```
 cd scripts
