@@ -19,7 +19,8 @@ pip install -r requirements.txt
 #### Atari 100K
 
 To Import ROMs, use[scripts/import_atari_rom.sh](scripts/import_atari_rom.sh):
-''`
+
+```
 cd scripts
 chmod +x import_atari_rom.sh
 ./import_atari_rom.sh
@@ -73,4 +74,10 @@ Monitor results with tensorboard:
 tensorboard --logdir ./logdir
 ```
 
+## Troubleshoot
 
+If you encounter the following error on Ubuntu: ```'None' type has no attribute "glGetError"```, as suggested [here](https://github.com/NM512/dreamerv3-torch/issues/65), try:
+```
+apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+apt-get install -y libgl1-mesa-dev libosmesa6-dev
+```
