@@ -1,0 +1,630 @@
+ROM HUNTER'S HARMONY CART ORIGINAL 1977-1992 VCS ROMS COLLECTION V15 (December 2025)
+
+Hunted ROMs: 622
+
+Please know that this ROM collection only contains the first known to exist versions of VCS games released between 1977 and 1992, 
+or the latest known to exist prototype version of an unreleased game. These titles are marked by a ~ symbol in my V20 collection.
+
+
+3-D Genesis (Prototype)
+3-D Ghost Attack (Prototype)
+3-D Havoc (Prototype)
+3-D Tic-Tac-Toe
+3-D Zapper (Prototype)
+Acid Drop (PAL)
+Actionauts
+Activision Decathlon, The [fixed]
+Activision Decathlon, The
+Adventure
+Adventures of TRON
+Air Raid (PAL)
+Air Raiders
+Airlock
+Air-Sea Battle - Target Fun
+Air-Sea Battle Copyright Screen Demo
+Alien
+Alligator People (Prototype)
+Alpha Beam with Ernie
+Amidar
+AndroMan on the Moon (Prototype)
+Aquaventure (Prototype)
+Arkyology (Prototype)
+Armor Ambush
+Artillery Duel
+Assault (PAL)
+Astro Chase (Prototype)
+Asteroids [no copyright]
+Asteroids
+Astroblast [fixed]
+Astroblast
+Astrowar (PAL)
+Atari Video Cube
+Atlantis
+Atom Smasher (Prototype)
+Bachelor Party
+Backgammon
+Bank Heist
+Barnstorming
+Basic Math - Math
+BASIC Programming
+Basketball
+Battlezone
+Beamrider
+Beany Bopper
+Bear Game Demo
+Beat 'Em & Eat 'Em
+Berenstain Bears
+Bermuda Triangle
+Berzerk
+Big Bird's Egg Catch
+Bionic Breakthrough (Prototype)
+Birthday Mania
+Blackjack - Black Jack
+Blueprint
+BMX Air Master
+Bobby Is Going Home (PAL) [demonstration cartridge]
+Bobby Is Going Home (PAL)
+Boggle (Prototype)
+Boing!
+Bouncin' Baby Bunnies (Prototype)
+Bowling
+Boxing
+Brain Games
+Breakout - Breakaway IV
+Bridge [fixed]
+Bridge
+Buck Rogers - Planet of Zoom
+Bugs Bunny (Prototype)
+Bugs
+Bump 'n' Jump
+Bumper Bash
+BurgerTime
+Burning Desire (PAL)
+Cabbage Patch Kids - Adventures in the Park (Prototype)
+Cakewalk
+California Games
+Canyon Bomber
+Care Bears (Prototype)
+Carnival
+Casino - Poker Plus
+Cat Trax [a]
+Cat Trax
+Centipede
+Challenge of.... Nexar, The
+Championship Soccer - Soccer
+Chase the Chuck Wagon
+Checkers
+China Syndrome
+Choplifter (Prototype) (PAL)
+Chopper Command
+Chuck Norris Superkicks
+Circus Atari - Circus
+Coco Nuts
+Codebreaker - Code Breaker
+Color Bar Generator
+Colors (Prototype) (PAL)
+Combat - Tank-Plus
+Combat Two (Prototype)
+Commando [different logo]
+Commando Raid
+Commando
+Communist Mutants from Space
+CompuMate
+Condor Attack
+Confrontation (Prototype)
+Congo Bongo [fixed]
+Congo Bongo
+Cookie Monster Munch
+Cosmic Ark [selectable starfield]
+Cosmic Ark
+Cosmic Commuter
+Cosmic Creeps
+Cosmic Swarm
+Crack'ed (Prototype)
+Crackpots
+Crash Dive
+Crazy Climber
+Crazy Ski (PAL)
+Cross Force
+Crossbow
+Crypts of Chaos
+Crystal Castles
+Cubicolor (Prototype)
+Custer's Revenge
+Dancing Plate (PAL)
+Dark Cavern
+Dark Chambers
+Deadly Duck
+Death Trap
+Defender
+Demolition Herby
+Demon Attack [fixed]
+Demon Attack
+Demons to Diamonds
+Depth Charge (Prototype)
+Desert Falcon
+Diagnostic Test Cartridge 2.0 (Prototype)
+Diagnostic Test Cartridge 2.6
+Diagnostic Test Cartridge 4.2
+Dice Puzzle (PAL)
+Dig Dug
+Dodge 'Em - Dodger Cars [fixed]
+Dodge 'Em - Dodger Cars
+Dolphin
+Donald Duck's Speedboat (Prototype)
+Donkey Kong Junior
+Donkey Kong
+Double Dragon
+Double Dunk
+Dragonfire
+Dragonstomper
+Dragster
+Dukes of Hazzard
+Dumbo's Flying Circus (Prototype)
+Dune (Prototype)
+E.T. - The Extra-Terrestrial
+Earth Dies Screaming, The
+Eggomania
+Elevator Action (Prototype)
+Elf Adventure (Prototype)
+Eli's Ladder
+Elk Attack (Prototype)
+Encounter at L-5
+Enduro
+Entity, The (Prototype)
+Entombed
+Escape from the Mindmaster
+Espial
+Euro Gen (PAL)
+Exocet (PAL)
+Extra Terrestrials
+Fantastic Voyage
+Fast Eddie
+Fast Food
+Fatal Run (PAL)
+Fathom
+Final Approach
+Fire Fighter
+Fire Fly
+Fireball
+Firefox (Prototype)
+Fish (Prototype)
+Fishing Derby
+Flag Capture - Capture
+Flash Gordon
+FM2 Sound Tool Demo
+Football
+Football Demo
+Forest (PAL)
+Frankenstein's Monster
+Freeway
+Frisco (PAL)
+Frog Demo (PAL)
+Frog Pond (Prototype)
+Frogger II - Threeedeep!
+Frogger
+Frogs and Flies
+Front Line
+Frostbite
+Funky Fish
+G.I. Joe - Cobra Strike
+Galaxian
+Game Select ROM
+Game Select ROM (PAL) [a]
+Game Select ROM (PAL)
+GameLine Master Module ROM
+Gamma-Attack
+Gangster Alley [fixed]
+Gangster Alley
+Garfield (Prototype)
+Gas Hog [fixed]
+Gas Hog
+Gauntlet
+Ghost Manor
+Ghostbusters II (PAL) [different tune]
+Ghostbusters II (PAL)
+Ghostbusters
+Glacier Patrol
+Glib - Video Word Game
+Going-Up (Prototype)
+Golf Diagnostic (Prototype)
+Golf
+Good Luck, Charlie Brown (Prototype)
+Gopher
+Gorf
+Grand Prix
+Gravitar
+Great Escape (PAL)
+Gremlins
+Grover's Music Maker (Prototype)
+Guardian
+Gyruss
+H.E.R.O.
+Halloween
+Hangman - Spelling
+Hard-Head (Prototype)
+Harem
+Haunted House
+Heart Like a Wheel (Prototype)
+Hobo
+Holey Moley (Prototype)
+Home Run - Baseball
+Human Cannonball - Cannon Man
+Hunt & Score - Memory Match
+Ice Hockey
+Ikari Warriors
+Imagic Selector ROM
+Immies & Aggies (Prototype)
+Inca Gold (PAL)
+Indy 500 - Race
+Infiltrate
+International Soccer
+Ixion (Prototype)
+James Bond 007
+Jawbreaker
+Journey Escape
+Joust
+Jr. Pac-Man
+Jungle Hunt
+Kabobber (Prototype)
+Kaboom!
+Kamikaze Saucers (Prototype)
+Kangaroo
+Karate
+Keystone Kapers
+Kick-Man (Prototype)
+Killer Satellites
+King Kong
+Klax (PAL)
+Kool-Aid Man
+Krull
+Kung-Fu Master
+Kyphus (Prototype)
+Laser Blast
+Laser Gates
+Lasercade (Prototype)
+Lilly Adventure (PAL)
+Lochjaw [moving cloud]
+Lochjaw
+Lock 'n' Chase
+London Blitz
+Looping (Prototype)
+Lord of the Rings, The - Journey to Rivendell (Prototype)
+Lost Luggage [no opening scene and less points per suitcase]
+Lost Luggage
+M.A.D.
+M.A.S.H
+MagiCard
+Malagai
+Mangia'
+Marauder
+Marine Wars
+Mario Bros.
+Master Builder
+Masters of the Universe - The Power of He-Man
+Math Gran Prix
+Maze Craze - A Game of Cops 'n Robbers - Maze Mania - A Game of Cops 'n Robbers
+Maze Demo
+McDonald's - Golden Arches Adventure (Prototype)
+Mega Force
+MegaBoy
+MegaMania - A Space Nightmare
+Meltdown (Prototype)
+Midnight Magic
+Millipede (Prototype) (PAL)
+Millipede
+Mind Maze (Prototype)
+Miner 2049er - Starring Bounty Bob [fixed]
+Miner 2049er - Starring Bounty Bob
+Miner 2049er Volume II
+Mines of Minos
+Miniature Golf - Arcade Golf
+Minotaur Version 7 Demo
+Miss Piggy's Wedding (Prototype)
+Missile Command [no initials]
+Missile Command
+Missile Control (PAL)
+Mission 3,000 A.D. (PAL) [demonstration cartridge]
+Mission 3,000 A.D. (PAL)
+Mission Survive (PAL) [louder sounds]
+Mission Survive (PAL)
+Mogul Maniac
+Monster Cise (Prototype)
+Montezuma's Revenge - Featuring Panama Joe
+Moon Patrol
+Moonsweeper
+Morse Code Tutor
+Motocross Racer
+MotoRodeo
+Mountain King
+Mouse Trap
+Mr. Do!
+Mr. Do!'s Castle
+Mr. Postman (PAL)
+Ms. Pac-Man
+Music Demo
+Music Machine, The
+My Golf (PAL) [fixed]
+My Golf (PAL)
+Mysterious Thief, A (Prototype)
+Name This Game
+Night Driver
+Nightmare (PAL)
+No Escape!
+Nuts (PAL)
+Obelix
+Off the Wall
+Off Your Rocker (Prototype)
+Official Frogger, The
+Oink!
+Omega Race
+Open, Sesame! (PAL)
+Oscar's Trash Race
+Othello [no grid markers]
+Othello
+Out of Control
+Outlaw - Gunslinger
+Pac-Man
+Panda Chase (PAL)
+Parachute (PAL)
+Party Mix - Bop a Buggy, Tug of War, Wizard's Keep, Down on the Line, Handcar
+Peek-A-Boo (Prototype)
+Pengo
+Pete Rose Baseball
+Phantom Tank (PAL)
+Pharaoh's Curse (PAL)
+Phaser Patrol
+Phoenix
+Pick 'n' Pile (PAL)
+Pick Up (Prototype)
+Picnic
+Piece o' Cake
+Pigs in Space - Starring Miss Piggy
+Pitfall II - Lost Caverns
+Pitfall! - Pitfall Harry's Jungle Adventure
+Pizza Chef (Prototype)
+Planet of the Apes (Prototype)
+Planet Patrol
+Plaque Attack
+Pleiades [a]
+Pleiades
+Polaris
+Pole Position
+Polo (Prototype)
+Pompeii (Prototype)
+Pooyan
+Popeye
+Porky's
+Power Lords (Prototype)
+Pressure Cooker
+Private Eye
+Pursuit of the Pink Panther (Prototype)
+Q-bert
+Q-bert's Qubes
+Quadrun
+Quest for Quintana Roo
+Quick Step!
+R2D Tank
+Rabbit Transit
+Racer (Prototype)
+Racing Car (PAL)
+Racquetball [different ball angles]
+Racquetball
+Radar Lock
+Raft Rider
+Raiders of the Lost Ark
+Ram It
+Rampage!
+Reactor
+RealSports Baseball
+RealSports Basketball (Prototype) (PAL)
+RealSports Boxing
+RealSports Football
+RealSports Soccer [no opening tune]
+RealSports Soccer
+RealSports Tennis
+RealSports Volleyball
+Red Sea Crossing
+Rescue Terra I
+Revenge of the Beefsteak Tomatoes
+Riddle of the Sphinx
+River Patrol
+River Raid II
+River Raid
+Road Runner
+Robin Hood
+Robot Tank
+Roc 'n Rope
+Rocky & Bullwinkle (Prototype)
+Room of Doom
+Rubik's Cube 3-D (Prototype)
+Rush Hour (Prototype)
+S.A.C. Alert (Prototype)
+Saboteur (Prototype)
+Save Mary! (Prototype)
+Save Our Ship (PAL)
+Save the Whales (Prototype)
+Sea Battle
+Sea Monster (PAL)
+Seahawk (PAL)
+Seaquest
+Secret Agent (Prototype)
+Secret Quest
+Sentinel
+Shootin' Gallery
+Shooting Arcade (Prototype)
+Shuttle Orbiter
+Sinistar (Prototype)
+Sir Lancelot
+Skate Boardin'
+Skeet Shoot [fixed]
+Skeet Shoot
+Ski Hunt (PAL)
+Skiing
+Skindiver (PAL)
+Sky Diver - Dare Diver
+Sky Jinks
+Sky Patrol (Prototype)
+Sky Skipper
+Slot Machine - Slots
+Slot Racers - Maze
+Smurf - Rescue in Gargamel's Castle [wF8 bankswitching]
+Smurf - Rescue in Gargamel's Castle
+Smurfs Save the Day
+Snail Against Squirrel (PAL)
+Snark (Prototype)
+Sneak 'n Peek
+Snoopy and the Red Baron
+Snow White (Prototype)
+Solar Fox
+Solar Storm
+Solaris
+Sonar (Prototype)
+Sorcerer
+Sorcerer's Apprentice
+Space Attack
+Space Cavern
+Space Invaders
+Space Jockey
+Space Robot (PAL)
+Space Shuttle - A Journey Into Space [FE bankswitching]
+Space Shuttle - A Journey Into Space
+Space Tunnel (PAL)
+Space War - Space Combat
+Spacechase
+SpaceMaster X-7
+Spider Fighter
+Spider-Man
+Spiders
+Spike's Peak
+Spinning Fireball (Prototype)
+Spitfire Attack
+Springer
+Sprint Master
+Spy Hunter
+Squeeze Box
+Squoosh (Prototype)
+Sssnake
+Stampede
+Star Fox
+Star Raiders
+Star Ship - Outer Space
+Star Strike
+Star Trek - Strategic Operations Simulator
+Star Voyager
+Star Wars - Jedi Arena
+Star Wars - Return of the Jedi - Death Star Battle
+Star Wars - Return of the Jedi - Ewok Adventure (Prototype)
+Star Wars - The Arcade Game
+Star Wars - The Empire Strikes Back
+Stargate
+Stargunner
+StarMaster
+Steeplechase (PAL)
+Steeplechase
+Stellar Track
+Stone Age
+Strategy X
+Strawberry Shortcake - Musical Match-Ups
+Street Racer - Speedway II
+Stronghold
+Stunt Cycle (Prototype)
+Submarine Commander
+Sub-Scan
+Subterranea
+Suicide Mission
+Summer Games
+Super Breakout [fixed]
+Super Breakout
+Super Challenge Baseball
+Super Challenge Football
+Super Cobra (Prototype)
+Super Cobra
+Super Football
+Supercharger BIOS
+Superman [fixed]
+Superman
+Surfer's Paradise - But Danger Below! (PAL)
+Surf's Up (Prototype)
+Surround - Chase
+Survival Island
+Survival Run (Prototype)
+Survival Run
+Sweat! - The Decathlon Game (Prototype)
+Sword of Saros
+Swordfight
+SwordQuest - EarthWorld
+SwordQuest - FireWorld
+SwordQuest - WaterWorld
+Tac-Scan
+Tank Blitz (Prototype)
+Tapeworm
+Tapper
+Tarzan (Prototype)
+Tax Avoiders
+Taz
+Telepathy (Prototype)
+Tempest (Prototype)
+Tennis
+Texas Chainsaw Massacre, The (Prototype)
+Texas Chainsaw Massacre, The
+Threshold
+Thunderground
+Thwocker (Prototype)
+Time Pilot
+Time Warp (PAL)
+Title Match Pro Wrestling
+Tomarc the Barbarian
+Tomcat - The F-14 Fighter Simulator
+Tooth Protectors
+Towering Inferno
+Track and Field
+Treasure Below (PAL)
+Trick Shot
+TRON - Deadly Discs
+Tunnel Runner
+Turbo (Prototype)
+Turmoil
+Tutankham
+Universal Chaos
+Unknown Activision Game (Prototype)
+Unknown Datatech Game
+Up 'n Down
+Vanguard
+VCS Draw Demo
+VCS Vertical Bars
+Venetian Blinds Demo
+Venture
+Video Cartridge Bicycle Trainer (Prototype)
+Video Checkers - Checkers
+Video Chess
+Video Jogger
+Video Life [different RAM data]
+Video Life
+Video Olympics - Pong Sports
+Video Pinball - Arcade Pinball
+Video Reflex [no roman numbers]
+Video Reflex
+Wabbit
+Wall Ball
+Wall-Defender (PAL)
+Warlords
+Warplock
+Whales (PAL)
+Wing War (PAL)
+Wings (Prototype)
+Winter Games
+Wizard (Prototype)
+Wizard of Wor
+Word Zapper
+Words-Attack (PAL)
+Worm War I
+Xenophobe
+Xevious (Prototype)
+X-Man
+X'Mission (PAL)
+Yars' Revenge
+Zaxxon [wF8 bankswitching]
+Zaxxon
+Zoo Keeper Sounds (Prototype)
+Z-Tack (PAL)

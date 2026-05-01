@@ -1,0 +1,56 @@
+What was fixed in the officially released [fixed] versions?
+
+
+Activision Decathlon, The (1983) (Activision, David Crane) (AG-930-04, AZ-030) [fixed] ~
+- Fixed the following bug in the original version: if you keep hitting the FIRE button after letting go of the pole during the pole vault event, you can clear heights well beyond the intended limit of 5.6m.
+
+Astroblast (Paddle) (1982) (M Network - INTV - APh Technological Consulting, Hal Finney) (MT5666) [fixed] ~
+- Fixed the following bugs in the original version: if two joysticks are plugged in and both are moved at the same time during the game, the following effects can happen (the same effects will happen if you use either controller): 
+the laser base will fly up into space or below the bottom border, the laser base will become invisible and when a rock hits it, the screen will turn red, the base count will cycle from 99 down to zero, and/or the joysticks will stop operating.
+
+Bridge (1980) (Activision, Larry Kaplan) (AX-006) [fixed] ~
+- Fixed the following bug in the original version: the game crashes when you bid 8. It also fixed a branch target adress in the original version.
+
+Congo Bongo (1983) (SEGA - Beck-Tech, Steve Beck, Phat Ho) (006-01) [fixed] ~
+- Fixed the following bug in the original version: the game crashes frequently when you randomize the startup bank. 
+The fixed version only displays some wrong graphics in that case.
+
+Demon Attack (Death from Above) (1982) (Imagic, Rob Fulop) (720000-200, 720101-1B, 720101-1C, IA3200, IA3200C, IX-006-04) [fixed] ~
+- Fixed the following bug in the original version: the screen will go black (because the code is stuck in an endless loop) after completing 84 waves (game modes 5 - 8 start on wave 13 and will freeze after completing wave 72). 
+The fixed version goes all the way to level 255 before wrapping around back to level 0.
+
+Dodge 'Em - Dodger Cars (Head On) (1980) (Atari, Carla Meninsky - Sears) (CX2637 - 49-75158) [fixed] ~ 
+- Fixed the following bug in the original version: the car and score of the player(s) stay the same color in B/W demo mode. 
+The fixed version also shows different colors after the game ends.
+
+Gangster Alley (1982) (Spectravision - Spectravideo) (SA-201) [fixed] ~
+- Fixed the following bug in the original version: instead of using an immediate value (prefixed by #), a zeropage address was used.
+
+Gas Hog (1983) (Spectravideo, Mark Turmell) (SA-217) [fixed] ~
+- Fixed the following bug in the original version: the scanline count was not constant.
+
+Miner 2049er - Starring Bounty Bob (1983) (Tigervision) (7-008) [fixed] ~
+- Fixed the following bug in the original version: RESET doesn't start the game with 3 lives if you only have 1 or 2 lives in reserve.
+
+My Golf (1990) (HES - Imagineering, David R. Lubar) (535) (PAL) [fixed] ~
+- Fixed the following bug in the original version: a branch was taken before an index register was updated to load a series of registers.
+
+Skeet Shoot (1981) (Apollo - Games by Apollo, Ed Salvo) (AP-1001) [fixed] ~
+- Fixed the following bug in the original version: a rolling gamescreen on some TV sets, due to the game counting 286 scanlines.
+
+Space Invaders (1980) (Atari, Richard Maurer) (CX2632, CX2632P) (PAL) [different speed and colors] [fixed]
+- Fixed a bug that affects the controls of the two-player modes 81 - 96 in the second PAL release of the game: the shots alternate between the players, but the movement doesn’t - only the right player moves the cannon.
+
+StarMaster - Kommando Galaxis (1982) (Activision, Alan Miller - Ariola) (EAX-016, PAX-016 - 711 016-725) (PAL) [fixed]
+- Fixed the following bug in the original version: a rolling gamescreen on some TV sets, due to the VSYNC pulse lasting for only 2 scanlines instead of 3.
+
+Super Breakout (Paddle) (1982 - 1981) (Atari, Carol Shaw, Nick 'Sandy Maiwald' Turner - Sears) (CX2608 - 49-75165) [fixed] ~
+- Fixed the following bug in the original version: the routine that handles the additional on-screen balls in game 3 - 6 is missing a comparison and branch.
+
+Superman (1979) (Atari, John Dunn - Sears) (CX2631 - 49-75152) [fixed] ~
+- Fixed the following bugs in the original version: 
+1) Hold down the FIRE button and tap the joystick in any direction. When 2 seconds have elapsed, release the FIRE button: the bridge won’t blow up and you’re free to capture the criminals. 
+2) Start the game and hold down the FIRE button when you are above the phone booth, then press SELECT and release the FIRE button. 
+Wait for the screen to cycle 2 scenes over (to a subway entrance) and move towards the subway. 
+The game will continue at that scene, but you won’t be able to fly up. 
+If you go to the bridge scene, all the criminals will escape but the bridge will not blow up

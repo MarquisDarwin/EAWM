@@ -1,0 +1,20 @@
+Distributed at http://www.cgexpo.com                12/15/99
+Garfield & Paws, Inc. - http://www.garfield.com
+-------------------------------------------------
+
+GARFIELD Characters:  (c) Paws, Inc.  All Rights Reserved.  Used by permission.
+
+Permission is granted to distribute the ROM code for the Atari 2600 game, Garfield,
+provided that the copyright statement in this text file is included with the code.
+
+The end user is granted permission to use the ROM code with an emulator on their
+PC, or to make a single cartridge for use with their Atari 2600 system, if they
+have that capability.
+
+Permission is NOT granted for any individual to manufacture cartridge versions of
+the ROM code for another end user under any circumstances.
+
+Paws, Inc. reserves the right to revoke this permission upon written notice at
+any time in the future.
+
+-------------------------------------------------
