@@ -12,7 +12,6 @@ test
 
 MixinGradle-dcfaf61/
 minerl-0.4.4/
-*.sh
 gradle*
 !train.sh
 !install_env.sh
