@@ -146,7 +146,7 @@ snapshot_download(
 Alternatively, you can use the Hugging Face CLI:
 
 ```bash
-huggingface-cli download darwin05/EAWM \
+hf download darwin05/EAWM \
   --repo-type model \
   --local-dir checkpoints
 ```
