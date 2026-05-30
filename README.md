@@ -25,6 +25,48 @@ This repository provides two implementations:
 
 The visualization files in this repository show policy rollouts, outputs from the automated event generator, and open-loop future-observation predictions from the world model. Raw experiment results are available in `results/`.
 
+## Download Checkpoints
+
+The pretrained checkpoints are hosted on Hugging Face: [darwin05/EAWM](https://huggingface.co/darwin05/EAWM).
+
+You can download the full checkpoint repository with the Hugging Face Hub Python API:
+
+```bash
+pip install -U huggingface_hub
+```
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="darwin05/EAWM",
+    local_dir="checkpoints"
+)
+```
+
+Alternatively, you can use the Hugging Face CLI:
+
+```bash
+huggingface-cli download darwin05/EAWM \
+  --repo-type model \
+  --local-dir checkpoints
+```
+
+After downloading, the checkpoint directory should follow this structure:
+
+```text
+checkpoints/
+|-- EADream/
+|   |-- atari_pong.pt
+|   |-- atari_breakout.pt
+|   `-- dmc_cheetah_run.pt
+`-- EASimulus/
+    |-- Atari/
+    |   |-- Pong.pt
+    |   `-- Breakout.pt
+    `-- craftax.pt
+```
+
 ![results](results/results.png)
 ## Environment Setup
 
