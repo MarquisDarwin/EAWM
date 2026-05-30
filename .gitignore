@@ -3,6 +3,7 @@ cache/
 wandb/
 resnet*
 video/
+checkpoints/
 */__pycache__/
 */*/__pycache__/
 */*/*/__pycache__/

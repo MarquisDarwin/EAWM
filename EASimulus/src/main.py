@@ -1,5 +1,6 @@
 import multiprocessing
 from collections import defaultdict
+from contextlib import suppress
 from functools import partial
 from pathlib import Path
 import shutil
@@ -225,6 +226,7 @@ class Trainer:
             resume=False,
             **cfg.wandb,
         )
+        self._finished = False
 
         torch.set_float32_matmul_precision(cfg.common.float32_matmul_precision)
 
@@ -950,7 +952,20 @@ class Trainer:
         return batch1
 
     def finish(self) -> None:
-        wandb.finish()
+        if self._finished:
+            return
+        self._finished = True
+        try:
+            closed_env_ids = set()
+            for env_name in ("train_env", "test_env"):
+                env = getattr(self, env_name, None)
+                if env is None or id(env) in closed_env_ids:
+                    continue
+                with suppress(Exception):
+                    env.close()
+                closed_env_ids.add(id(env))
+        finally:
+            wandb.finish()
 
 
 @hydra.main(config_path="../config", config_name="base", version_base="1.1")
@@ -959,7 +974,10 @@ def main(cfg: DictConfig):
         multiprocessing.set_start_method("spawn")
     os.environ["MUJOCO_GL"] = cfg.common.graphicslib
     trainer = Trainer(cfg)
-    trainer.run()
+    try:
+        trainer.run()
+    finally:
+        trainer.finish()
 
 
 if __name__ == "__main__":

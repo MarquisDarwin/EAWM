@@ -23,6 +23,6 @@ event_token_balance_factor: 1.0
 event_token_2d_balance_factor: 0.25
 ges: True
 convmotdecoder: False
-judge_tendency: False
+judge_tendency: True
 tend_threshold: 0.01
 reward_end_use_all_embedding: False
