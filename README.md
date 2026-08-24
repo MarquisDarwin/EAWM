@@ -10,7 +10,7 @@ Tsinghua University, Zhejiang university
 
 <a href='https://arxiv.org/abs/2601.19336'><img src='https://img.shields.io/badge/ArXiv-2510.10125-red'></a> 
 <a href='https://huggingface.co/darwin05/EAWM'><img src='https://img.shields.io/badge/Hugging%20Face-Checkpoints-yellow?logo=huggingface&logoColor=yellow'></a>
-
+<a href='https://paperswithcode.co/paper/2601.19336'><img src='https://img.shields.io/badge/Papers%20with%20Code-Leaderboards-21cbce'></a>
 
 </div>
 
